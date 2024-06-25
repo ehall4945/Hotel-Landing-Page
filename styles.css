@@ -9,6 +9,7 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
     height: 100vh;
     max-width: 75%;
     margin-left: auto;
@@ -55,5 +56,30 @@ a {
 .main-header {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 25px;
     border: 1px dashed blue;
+}
+
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1 1 50%;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 1px solid black;
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 50%;
+    border: 1px solid black;
+}
+
+.header-right > img {
+    width: 400px;
+    height: auto;
 }
