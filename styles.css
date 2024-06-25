@@ -9,6 +9,7 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -24,9 +25,30 @@ header {
 /* Set nav to flex and set in top right corner */
 nav {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
     border: 1px dashed red;
+    padding: 10px;
+}
+
+nav > h1 {
+    margin-right: auto;
+    font-size: 24px;
+}
+
+/* Set unordered list to flex to help separate it from text logo */
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    border: 1px solid black;
+}
+
+li,
+a {
+    font-size: 18px;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 /* Set main-header class to flex and center content */
