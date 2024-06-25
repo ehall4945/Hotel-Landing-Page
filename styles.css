@@ -21,6 +21,8 @@ body {
 /* Temporary header border to make styling easier */
 header {
     border: 1px dashed black;
+    background-color: #1F2937;
+    color: white;
 }
 
 /* Set nav to flex and set in top right corner */
@@ -35,6 +37,7 @@ nav {
 nav > h1 {
     margin-right: auto;
     font-size: 24px;
+    color: #F9FAF8;
 }
 
 /* Set unordered list to flex to help separate it from text logo */
@@ -50,6 +53,7 @@ a {
     font-size: 18px;
     list-style-type: none;
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 /* Set main-header class to flex and center content */
@@ -69,6 +73,7 @@ a {
     flex: 1 1 50%;
     flex-wrap: wrap;
     gap: 10px;
+    color: #F9FAF8;
     border: 1px solid black;
 }
 
@@ -82,4 +87,16 @@ a {
 .header-right > img {
     width: 400px;
     height: auto;
+}
+
+button {
+    background-color: #2882F6;
+    color: white;
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
 }
