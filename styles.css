@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    height: 100vh;
+    height: 200vh;
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -99,4 +99,65 @@ button {
 h1 {
     font-size: 48px;
     font-weight: bolder;
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.information-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    min-height: 50%;
+    border: 1px solid green;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid pink;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px double #2882F6;
+    border-radius: 25px;
+}
+
+.box-container > p {
+    align-self: flex-end;
+}
+
+.information-section > h2 {
+    align-self: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    border: 1px solid green;
+}
+
+.call-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    border: 1px solid green;
 }
