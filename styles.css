@@ -4,3 +4,29 @@
     margin: 0;
     padding: 0;
 }
+
+/* Set entire body to flex and column direction to help organize better */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Temporary header border to make styling easier */
+header {
+    border: 1px dashed black;
+}
+
+/* Set nav to flex and set in top right corner */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border: 1px dashed red;
+}
+
+/* Set main-header class to flex and center content */
+.main-header {
+    display: flex;
+    justify-content: center;
+    border: 1px dashed blue;
+}
