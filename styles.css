@@ -125,6 +125,7 @@ h1 {
     align-items: center;
     margin-bottom: 20px;
     font-size: 36px;
+    color: #1F2937;
 }
 
 .box-container {
@@ -145,6 +146,7 @@ h1 {
     border: 1px solid black;
     gap: 5px;
     width: 200px;
+    color: #1F2937;
 }
 
 .box {
@@ -165,6 +167,13 @@ h1 {
     align-items: center;
     flex: 1 1 100%;
     border: 1px solid green;
+    background-color: #E5E7EB;
+}
+
+.quote-section > h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
 }
 
 .call-action-section {
