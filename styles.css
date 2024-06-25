@@ -76,6 +76,10 @@ a {
     border: 1px solid black;
 }
 
+.header-left > p {
+    font-size: 18px;
+}
+
 .header-right {
     display: flex;
     justify-content: center;
@@ -90,9 +94,11 @@ a {
 
 button {
     background-color: #2882F6;
+    border: 2px solid white;
     color: white;
-    width: 100px;
-    height: auto;
+    width: 125px;
+    height: 50px;
+    border-radius: 5px;
 }
 
 h1 {
@@ -168,6 +174,7 @@ h1 {
     flex: 1 1 100%;
     border: 1px solid green;
     background-color: #E5E7EB;
+    padding: 50px;
 }
 
 .quote-section > h2 {
@@ -178,8 +185,25 @@ h1 {
 
 .call-action-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    flex: 1 1 100%;
+    flex: 1;
+    background-color: #2882F6;
+    border-radius: 5px;
+    padding: 20px 50px;
+    gap: 50px;
+    margin: 50px 100px;
     border: 1px solid green;
+    font-size: 24px;
+}
+
+.button {
+    display: flex;
+    align-items: flex-end;
+}
+
+.call-action-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
 }
