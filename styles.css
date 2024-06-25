@@ -10,7 +10,6 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    height: 200vh;
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -114,9 +113,18 @@ h1 {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    flex-basis: 100%;
-    min-height: 50%;
+    flex: 1 1 100%;
+    min-height: 25%;
+    padding: 25px 25px 50px 25px;
     border: 1px solid green;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .box-container {
@@ -124,33 +132,38 @@ h1 {
     flex-wrap: wrap;
     flex: 1 1 100%;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
+    align-items: flex-start;
+    gap: 20px;
     border: 2px solid pink;
+}
+
+.box-and-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 5px;
+    width: 200px;
 }
 
 .box {
     width: 200px;
     height: 200px;
-    border: 2px double #2882F6;
+    border: 3px solid #2882F6;
     border-radius: 25px;
 }
 
-.box-container > p {
-    align-self: flex-end;
-}
-
-.information-section > h2 {
-    align-self: flex-start;
-    margin-left: auto;
-    margin-right: auto;
+.box-and-text > p {
+    font-size: 20px;
+    text-align: center;
 }
 
 .quote-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 100%;
+    flex: 1 1 100%;
     border: 1px solid green;
 }
 
@@ -158,6 +171,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 100%;
+    flex: 1 1 100%;
     border: 1px solid green;
 }
