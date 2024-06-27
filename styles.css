@@ -147,7 +147,7 @@ h1 {
     flex: 1 1 100%;
     justify-content: center;
     align-items: flex-start;
-    gap: 20px;
+    gap: 30px;
     border: 2px solid pink;
 }
 
@@ -204,8 +204,9 @@ h1 {
     background-color: #2882F6;
     border-radius: 5px;
     padding: 20px 50px;
-    gap: 50px;
-    margin: 50px 100px;
+    gap: 40px;
+    max-width: 75%;
+    margin: 75px auto;
     border: 1px solid green;
     font-size: 24px;
 }
@@ -219,4 +220,5 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 50%;
+    color: #F9FAF8;
 }
