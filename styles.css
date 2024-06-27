@@ -198,6 +198,7 @@ button {
     gap: 12px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .quote-section > h2 {
