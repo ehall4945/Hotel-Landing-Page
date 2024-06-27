@@ -219,8 +219,7 @@ button {
     background-color: #FFE0C2;
     border: 1px solid #262626;
     border-radius: 5px;
-    padding: 30px 50px;
-    gap: 20px;
+    padding: 40px 60px;
     max-width: 75%;
     margin: 75px auto;
 }
