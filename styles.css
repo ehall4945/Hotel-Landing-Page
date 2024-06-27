@@ -128,7 +128,8 @@ h1 {
     max-width: 75%;
     margin-left: auto;
     margin-right: auto;
-    padding: 25px 25px 50px 25px;
+    padding: 50px 25px;
+    text-align: center;
     border: 1px solid green;
 }
 
@@ -158,15 +159,21 @@ h1 {
     align-items: center;
     border: 1px solid black;
     gap: 5px;
-    width: 200px;
+    width: 250px;
     color: #1F2937;
 }
 
 .box {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border: 3px solid #2882F6;
     border-radius: 25px;
+    background-size: contain;
+    background-image: url(./images/pexels-rohit-sharma-1230131-20895982.jpg);
+}
+
+.box.one {
+    background-image: url(./images/pexels-halosa-sapa-701665231-18120173.jpg);
 }
 
 .box-and-text > p {
