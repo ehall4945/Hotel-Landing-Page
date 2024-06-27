@@ -168,12 +168,24 @@ h1 {
     height: 250px;
     border: 3px solid #2882F6;
     border-radius: 25px;
-    background-size: contain;
-    background-image: url(./images/pexels-rohit-sharma-1230131-20895982.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .box.one {
+    background-image: url(./images/pexels-rohit-sharma-1230131-20895982.jpg);
+}
+
+.box.two {
+    background-image: url(./images/pexels-pixabay-460537.jpg);
+}
+
+.box.three {
     background-image: url(./images/pexels-halosa-sapa-701665231-18120173.jpg);
+}
+
+.box.four {
+    background-image: url(./images/pexels-willpicturethis-1954524.jpg);
 }
 
 .box-and-text > p {
