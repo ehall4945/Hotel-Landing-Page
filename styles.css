@@ -12,10 +12,11 @@ body {
     flex: 1;
     /* temporary border */
     border: 1px solid orange;
+    background-color: #F5F5F5;
 }
 
 .header-background {
-    background-color: #1F2937;
+    background-color: #262626;
 }
 
 /* Temporary header border to make styling easier */
@@ -92,7 +93,8 @@ a {
 }
 
 .header-right > img {
-    width: 75%;
+    width: 100%;
+    height: 50%;
     object-fit: contain;
 }
 
@@ -212,7 +214,7 @@ h1 {
 }
 
 .quote-background-color {
-    background-color: #E5E7EB;
+    background-color: #6E858B;
 }
 
 .call-action-section {
@@ -220,7 +222,7 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
     flex: 1;
-    background-color: #2882F6;
+    background-color: #C97D60;
     border-radius: 5px;
     padding: 20px 50px;
     gap: 40px;
@@ -239,14 +241,14 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 50%;
-    color: #F9FAF8;
+    color: black;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #262626;
     color: #E5E7EB;
     font-size: 18px;
     padding: 15px 0px;
