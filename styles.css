@@ -180,14 +180,20 @@ h1 {
     align-items: center;
     flex: 1 1 100%;
     border: 1px solid green;
-    background-color: #E5E7EB;
-    padding: 50px;
+    padding: 100px 50px;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .quote-section > h2 {
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
+}
+
+.quote-background-color {
+    background-color: #E5E7EB;
 }
 
 .call-action-section {
